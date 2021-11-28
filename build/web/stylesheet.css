@@ -1,0 +1,38 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(170, 160, 151, 0.7),rgba(70, 55, 45, 0.7)),url(header.jpg);
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.header form{
+
+}
+.header form ul{
+    list-style-type: none;
+}
+.header form ul li{
+}
+.header input{
+    border-radius: 5px;
+    border: rgba(66, 17, 8, 1);
+    padding: 5px 10px;
+}
+.header button{
+    border: antiquewhite 1px solid;
+    box-shadow: 50px;
+    color: antiquewhite;
+    background-color: transparent;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: 1s;
+}
+.header button:hover{
+    background-color: rgb(240, 72, 42);
+    border: rgb(240, 72, 42);
+    color: aliceblue;
+}
+
