@@ -1,16 +1,16 @@
 @font-face {
   font-family: squid_game;
-  src: url(./fonts/LaoutBeautyPersonalUse-X3MjG.otf);
+  src: url(./web/fonts/LaoutBeautyPersonalUse-X3MjG.otf);
 }
 
 @font-face {
   font-family: opensans-medium;
-  src: url(./fonts/OpenSans-Bold.ttf);
+  src: url(./web/fonts/OpenSans-Bold.ttf);
 }
 
 @font-face {
   font-family: sora-regular;
-  src: url(./fonts/Sora-Regular.ttf);
+  src: url(./web/fonts/Sora-Regular.ttf);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
       rgba(170, 160, 151, 0.7),
       rgba(70, 55, 45, 0.7)
     ),
-    url(header.jpg);
+    url(./web/header.jpg);
   background-position: center;
   background-size: contain;
   position: relative;
